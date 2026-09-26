@@ -19,5 +19,8 @@
   ],
   "skills": "./skills/",
   "privacyPolicyUrl": "https://www.poolrelay.com/legal/privacy-policy",
-  "termsOfServiceUrl": "https://www.poolrelay.com/legal/terms-of-service"
+  "termsOfServiceUrl": "https://www.poolrelay.com/legal/terms-of-service",
+  "supportUrl": "https://www.poolrelay.com/support",
+  "repository": "https://github.com/psmoore/poolrelay-plugin",
+  "documentationUrl": "https://www.poolrelay.com/guide"
 }
