@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "pool-relay": {
+      "type": "streamable-http",
+      "url": "https://www.poolrelay.com/mcp"
+    }
+  }
+}

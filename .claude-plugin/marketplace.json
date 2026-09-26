@@ -1,0 +1,13 @@
+{
+  "name": "pool-relay",
+  "owner": { "name": "Etcha Company", "url": "https://www.poolrelay.com" },
+  "description": "The Pool Relay plugin: the Pool Relay connector plus skills for lane-by-lane pool schedules.",
+  "plugins": [
+    {
+      "name": "pool-relay",
+      "source": "./",
+      "description": "Build, publish and change lane-by-lane pool schedules in chat.",
+      "version": "1.0.0"
+    }
+  ]
+}
