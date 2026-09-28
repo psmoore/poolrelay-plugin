@@ -7,7 +7,7 @@
       "name": "pool-relay",
       "source": "./",
       "description": "Build, publish and change lane-by-lane pool schedules in chat.",
-      "version": "1.0.0"
+      "version": "1.0.1"
     }
   ]
 }

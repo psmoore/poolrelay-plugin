@@ -20,6 +20,10 @@ top, time down the side. Everything is staged in a draft and shown to the person
 - **One event holds one set of lanes.** When a program's lanes change during its block, split it into separate
   events at each change.
 - **Lanes in one event are side by side.** Never give an event lanes 1, 2, 5 and 6.
+- **A booking that repeats is one recurring event.** Same title, groups, time and lanes on several days means one
+  event with a weekly recurrence (`byWeekday` listing its days), ending on the season's last day when it has one.
+  Never a copy per day: a person changes a series in one edit, but has to find every copy. Days that differ in time
+  or lanes are separate series.
 - **More than one write means a draft first.** Show the review before taking it live.
 - **Never invent a time, a lane count or a program.** A time that isn't published is a question for the staff,
   not a guess.
@@ -41,7 +45,8 @@ top, time down the side. Everything is staged in a draft and shown to the person
    (Lap Swim, Swim Lessons, Water Fitness, Swim Team), and practice groups for levels or squads.
 6. **Place programs on lanes.** Follow `references/lane-placement.md`, and use `suggest_assignment` when unsure.
    Add "Lane assignment is our estimate" to the description whenever the source doesn't name lanes.
-7. **Stage it.** Call `create_draft`, then `create_events` with a whole pool or day per call (up to 60). Keep
+7. **Stage it.** Call `create_draft`, then `create_events` with a whole pool or week per call (up to 60), one
+   entry per recurring series rather than per day. Keep
    titles short so they fit in a lane column ("Level 1", "Parent & Child"), and keep full names in the
    description. Lessons that start at the same time share one event tagged with every level.
 8. **Audit before publishing.** Call `find_conflicts` for the range. Every conflict is either a data-entry error

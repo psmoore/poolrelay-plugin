@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pool-relay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build, publish and change lane-by-lane pool schedules in chat. Connects to Pool Relay and adds skills for putting a facility's schedule on real lanes and publishing calendars swimmers can read.",
   "author": { "name": "Etcha Company", "url": "https://www.poolrelay.com" },
   "license": "Proprietary",
